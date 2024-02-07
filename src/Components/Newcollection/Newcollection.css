@@ -1,0 +1,17 @@
+.new-collection{
+    padding:20px 0 20px 0 ;
+}
+.new-collection-heading{
+    text-align: center;
+    color: #012b72;
+}
+
+.new-collection-product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    padding:20px 20px 10px 20px;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    font-size: 20px;
+}

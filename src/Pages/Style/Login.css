@@ -1,0 +1,42 @@
+.sign-up-page{
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid  gray;
+    padding: 20px;
+}
+
+.heading-signup h1{
+    color: #012b72;
+    text-align: center;
+}
+
+
+/* THIS IS FOR INPUT TAGS */
+.login-sigin{
+    display: flex;
+    flex-direction: column;
+}
+.login-sigin input{
+    padding: 15px;
+    margin: 10px;
+}
+
+
+/* THIS IS FOR BUTTON */
+.btn-continue{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn-continue button{
+    padding: 10px 20px 10px 20px;
+    background-color: #012b72;
+    color: aliceblue;
+    border: none;
+    border-radius: 0 10px 0 10px;
+}
+
+/* ALREADY ACCOUNT LOG IN  */
+.already-account p span{
+    color: #012b72;
+}

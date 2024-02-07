@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, #ffffff ,#bcdbef );
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-heading {
+    padding: 30px;
+    font-size: 40px;
+    color: #012b72;
+}
+/* THIS IS FOR COLLECTION BUTTOM */
+.btn-collection {
+    width: fit-content;
+    padding: 20px;
+    background-color: #012b72;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+/* THIS IS FOR RIGTH IMG */
+
+.banner-img {
+    max-width: 75%;
+}
+
+

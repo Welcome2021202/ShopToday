@@ -1,0 +1,87 @@
+.footer{
+    background-image: linear-gradient(to right, #012b72, #00b4fe);
+    padding: 10px;
+}
+
+
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    padding: 30px 20px 30px 20px;
+}
+
+
+/* FIRST ROW  */
+.first-row h2 {
+    padding: 15px 0 15px 0;
+}
+
+
+
+/* SECOND ROW */
+.news-letter {
+    padding: 50px 10px 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-letter h1 {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.news-letter p {
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.news-letter-inp {
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.news-letter-btn {
+    border: none;
+    color: white;
+    background-color: #012b72;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border-radius: 30px;
+}
+
+.newsletter-in-bt {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* THIRD ROW */
+.third-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media-img img {
+    padding-right: 20px;
+}
+.shops-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+
+/* COPYRIGTH SECTION */
+.footer-copyrigth{
+    color: #ffffff;
+    text-align: center;
+    padding-top:10px ;
+}

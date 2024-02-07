@@ -1,0 +1,17 @@
+.item{
+    width: fit-content;
+    background-image: linear-gradient(to bottom, #012b72 ,#00b4fe );
+    color: white;
+    padding: 20px;
+    overflow-wrap: break-word;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description-box h3{
+    padding: 15px 0 15px 0;
+}
+
+/* THIS IS IMAGE ZOOM OUT */
+.item-imges:hover{
+    transform: scale(0.8); 
+}
